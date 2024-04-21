@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-04-20T23:47:42.633031" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\logisly\PycharmProjects\TestProject\Test">
+<suite id="s1-s1" name="TestRegister" source="C:\Users\logisly\PycharmProjects\TestProject\Test\TestRegister.robot">
+<test id="s1-s1-t1" name="TEST" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-20T23:47:42.677303" level="TRACE">Arguments: [ 'This is a simple test case' ]</msg>
+<msg time="2024-04-20T23:47:42.677303" level="INFO">This is a simple test case</msg>
+<msg time="2024-04-20T23:47:42.677303" level="TRACE">Return: None</msg>
+<arg>This is a simple test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-20T23:47:42.676306" elapsed="0.000997"/>
+</kw>
+<tag>demo2</tag>
+<status status="PASS" start="2024-04-20T23:47:42.676306" elapsed="0.001489"/>
+</test>
+<status status="PASS" start="2024-04-20T23:47:42.664338" elapsed="0.014458"/>
+</suite>
+<suite id="s1-s2" name="Login" source="C:\Users\logisly\PycharmProjects\TestProject\Test\Login.robot">
+<test id="s1-s2-t1" name="TEST2" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-20T23:47:42.682938" level="TRACE">Arguments: [ 'This is a simple test case' ]</msg>
+<msg time="2024-04-20T23:47:42.682938" level="INFO">This is a simple test case</msg>
+<msg time="2024-04-20T23:47:42.682938" level="TRACE">Return: None</msg>
+<arg>This is a simple test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-20T23:47:42.682938" elapsed="0.000000"/>
+</kw>
+<tag>demo</tag>
+<status status="PASS" start="2024-04-20T23:47:42.681941" elapsed="0.001994"/>
+</test>
+<status status="PASS" start="2024-04-20T23:47:42.679944" elapsed="0.004112"/>
+</suite>
+<meta name="Randomized">Suites and tests (seed 2848166962086407285)</meta>
+<status status="PASS" start="2024-04-20T23:47:42.633031" elapsed="0.053023"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">demo</stat>
+<stat pass="1" fail="0" skip="0">demo2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestRegister">Test.TestRegister</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Login">Test.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
